@@ -11,7 +11,7 @@ app.use(express.static("public"));
 
 //Connecting to the todolistDB
 
-mongoose.connect("mongodb+srv://ashmi-admin:test1234@cluster0.y5yga2r.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://ashmi-admin:<password>@cluster0.y5yga2r.mongodb.net/todolistDB");
 
 //Creating Schema
 const itemSchema  = mongoose.Schema({
